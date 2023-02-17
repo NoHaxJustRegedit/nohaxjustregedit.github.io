@@ -1,60 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>NoHaxJustRegedit's Site</title>
-    <style>
-        body {
-            background-image: url("https://cdn.discordapp.com/attachments/1075993157642235997/1076005547800805376/background.gif");
-            background-size: cover;
-        }
-
-        h1 {
-            text-align: center;
-            color: red;
-            font-size: 3em;
-        }
-
-        img {
-            width: 50px;
-            height: 50px;
-        }
-
-        #muteButton {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            background-color: #fff;
-            color: #000;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+	<title>NoHaxJustRegedit's Site</title>
+	<style>
+		body {
+			background-image: url("https://cdn.discordapp.com/attachments/1075993157642235997/1076005547800805376/background.gif");
+			background-size: cover;
+		}
+		h1 {
+			text-align: center;
+			color: red;
+			font-size: 3em;
+		}
+		img {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
 </head>
 <body>
-    <audio id="audio" src="audio.mp3" autoplay loop></audio>
-    <h1>NoHaxJustRegedit's socials</h1>
-    <div style="text-align: center;">
-        <a href="https://www.youtube.com/@NoHaxJustRegedit" target="_blank">
-            <img src="https://cdn.discordapp.com/attachments/1075993157642235997/1076005859404038226/youtube.png" alt="YouTube icon">
-        </a>
-    </div>
-    <div id="muteButton" onclick="toggleMute()">
-        Mute
-    </div>
-    <script>
-		var audio = document.getElementById("audio");
-		var muteButton = document.getElementById("muteButton");
-
-		function toggleMute() {
-			if (audio.muted) {
-				audio.muted = false;
-				muteButton.innerHTML = "Mute";
-			} else {
-				audio.muted = true;
-				muteButton.innerHTML = "Unmute";
-			}
-		}
-    </script>
+	<h1>NoHaxJustRegedit's socials</h1>
+	<div style="text-align: center;">
+		<a href="https://www.youtube.com/@NoHaxJustRegedit" target="_blank"><img src="https://cdn.discordapp.com/attachments/1075993157642235997/1076005859404038226/youtube.png"></a>
+		<a href="https://github.com/NoHaxJustRegedit" target="_blank"><img src="https://cdn.discordapp.com/attachments/1075993157642235997/1076015362191138917/github.png"></a>
+	</div>
 </body>
 </html>
